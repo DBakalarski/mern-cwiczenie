@@ -1,0 +1,35 @@
+.container {
+  max-width: 980px;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 70px;
+  background: #333;
+  color: #fff;
+}
+
+.header nav {
+  float: right;
+}
+
+.header h1 {
+  float: left;
+}
+header nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  display: block;
+  color: #fff;
+  height: 70px;
+  line-height:70px;
+  text-align: center;
+  width: 150px;
+}
